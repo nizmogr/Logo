@@ -22,5 +22,5 @@ client_scripts {
 ui_page 'html/ui.html'
 files {
 	'html/*',
-	'img/logo.png'
+	'img/logo.gif'
 }
