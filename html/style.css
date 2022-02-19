@@ -9,9 +9,9 @@ body {
 
 #container {
 	position: absolute;
-	top: 2vh;
+	top: 3vh;
 	bottom: 100%;
-	left: 1%; /*25*/
+	left: 89%; /*25*/
 	width: 193px;
 	height: 167px;
 	display: none;
@@ -25,7 +25,8 @@ header {
 	opacity: 0.8;
 	border-top-left-radius: 40px;
 	border-top-right-radius: 40px;
-
+	border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 40px;
 }
 
 header img {
@@ -33,6 +34,8 @@ header img {
 	height: 167px;
 	border-top-left-radius: 40px;
 	border-top-right-radius: 40px;
+	border-bottom-left-radius: 40px;
+	border-bottom-right-radius: 40px;
 }
 
 /* Firefox old*/
