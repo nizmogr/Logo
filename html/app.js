@@ -6,7 +6,7 @@ window.addEventListener('message', function(e) {
   		
         $("#container").animate({
         	bottom: "25%",
-        	opacity: "1.0"
+        	opacity: "0.9"
         	},
         	700, function() {
 
