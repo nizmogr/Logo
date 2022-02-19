@@ -6,7 +6,7 @@ fx_version "bodacious"
 game "gta5"
 
 -- Define the resource metadata
-name "Logo Watermark"
+name "Logo"
 description "A Simple Logo Watermark"
 author "Jordan.#2139"
 version "v1.2.0"
