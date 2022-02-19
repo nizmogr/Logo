@@ -11,15 +11,14 @@ local isUiOpen = false
 local userTurnedOff = false
 
 Citizen.CreateThread(function()
-  if NetworkIsSessionStarted() then
     TriggerEvent("chat:addSuggestion", "/togglewm", "help text", {
       { help='Toggle the watermark' }
     })
+    
     return
-  end
 end)
 
-AddEventHandler('onClientMapStart', function ()
+AddEventHandler('playerSpawned', function (spawn)
   Citizen.CreateThread(function ()
     isUiOpen = true
     TriggerEvent('DisplayWM', true) 
