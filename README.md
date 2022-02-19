@@ -1,5 +1,8 @@
-#Custom changes
+# Custom changes
 Made some changes to my liking
+#
+#
+#
 
 # Logo-Watermark
 ## What Is Logo Watermark? 
