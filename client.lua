@@ -52,3 +52,17 @@ RegisterCommand('togglewm', function()
     })    
   end
 end)
+
+local IsPaused = false
+Citizen.CreateThread(function()
+  while true do
+    Citizen.Wait(1)
+    if IsPauseMenuActive() and not IsPaused then
+      IsPaused = true
+      TriggerEvent('DisplayWM', false)
+    elseif not IsPauseMenuActive() and IsPaused then
+      IsPaused = false
+      TriggerEvent('DisplayWM', true)
+    end
+  end
+end)
